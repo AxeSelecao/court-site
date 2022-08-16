@@ -1,0 +1,42 @@
+.news-overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.overlay-description {
+  background: url("../images/overlay.png") no-repeat;
+  background-size: 100% 100%;
+
+  width: 50%;
+}
+
+.overlay-text {
+  padding: 30px 45px;
+}
+
+.overlay-text h3:hover {
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+.news {
+  background-color: white;
+}
+
+.news-pages {
+  padding-top: 10px;
+}
+
+.news-pages p:hover {
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+.news h3:hover {
+  text-decoration: underline;
+
+  cursor: pointer;
+}
